@@ -1,2 +1,11 @@
 // This is the top-level scss file. Import all other files in here.
 @import 'home';
+
+html, body, #react-root {
+  height: 100%;
+  width: 100%;
+}
+
+// Notice alfabet order.
+@import '../src/components/FallingPiece/fallingPiece';
+@import '../src/components/Main/main';
